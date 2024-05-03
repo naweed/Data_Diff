@@ -23,3 +23,9 @@ This is a full working app. The following enhancements are in the pipeline:
 * Dynamically extract columns list (along with Primary key) from the two tables and compare data automatically for all the common columns
 * Support for Composite Primary Keys
 * Support for Oracle, MySQL and PostGres
+
+## Screen Shots
+![Input Screen](images/001.png)
+![Input Confirmation Screen](images/002.png)
+![Data Read and Missing Records](images/003.png)
+![Data Mismatches between Similar Records](images/004.png)
