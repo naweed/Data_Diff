@@ -19,4 +19,4 @@ You need the follwing information to be provided to the tool for the comparison 
 | Database 2   | String        | The database on Server 2 where the second table is hosted      |
 | Table 2   | String        | The name of the second table used in comparison      |
 | Primary Key   | String        | The primary key in the tables (e.g. ID)        |
-| Columns to Cpmapre   | String        | List of (common) columns between two tables who data is to be compared       |
+| Columns to Compare   | String        | List of (common) columns between two tables who data is to be compared       |
