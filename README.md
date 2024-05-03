@@ -14,12 +14,12 @@ You need the follwing information to be provided to the tool for the comparison 
 | Database 2   | String        | The database on Server 2 where the second table is hosted      |
 | Table 2   | String        | The name of the second table used in comparison      |
 | Primary Key   | String        | The primary key in the tables (e.g. ID)        |
-| Columns to Compare   | String        | List of (common) columns between two tables who data is to be compared       |
+| Columns to Compare   | String        | List of (common) columns between two tables whose data is to be compared (comma separated list, e.g. Name, Age, Department, DOB)       |
 
 ## Roadmap
 This is a full working app. The following enhancements are in the pipeline:
 * Add SQL Authentication (very simple to do - will take me 5 mins, but I am just lazy)
-* Ability to extract data differences in CSV/Excel file
-* Dynamically get columns list (along with Primary key) from two tables and compare data automatically for the common columns
+* Ability to extract data differences in form of a CSV/Excel file
+* Dynamically extract columns list (along with Primary key) from the two tables and compare data automatically for all the common columns
 * Support for Composite Primary Keys
 * Support for Oracle, MySQL and PostGres
